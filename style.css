@@ -13,12 +13,19 @@ body {
     padding: 1% 0;
     font-size: 1.2em;
     border: 0;
+    overflow: hidden;
+    min-height: 70px;
+    max-height: 70px;
 }
 .navbar-brand {
     float: left;
     min-height: 55px;
     padding: 0 15px 5px;
-
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
@@ -31,10 +38,37 @@ body {
 }
 
 .headshot {
-
+    margin: 0 auto;
+    border: 1px solid #d5d5d5;
+    filter: drop-shadow(0 0 15px #d5d5d5);
 }
 
 .jumbotron {
-    background: url('https://source.unsplash.com/weekly?dark') no-repeat center center;
-    size: 100%
+    background: url('https://source.unsplash.com/weekly?classy') no-repeat center center;
+    background-size: cover;
+    
+}
+
+.description-box {
+    display: flex;
+    align-items: center;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.logo {
+    height: auto;
+    width: 35vw;
+    max-width: 200px;
+}
+
+.grow { 
+    transition: all .2s ease-in-out;
+}
+.grow:hover { 
+    transform: scale(1.1); 
 }
