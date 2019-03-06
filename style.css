@@ -13,9 +13,7 @@ body {
     padding: 1% 0;
     font-size: 1.2em;
     border: 0;
-    overflow: hidden;
-    min-height: 70px;
-    max-height: 70px;
+
 }
 .navbar-brand {
     float: left;
@@ -23,9 +21,7 @@ body {
     padding: 0 15px 5px;
     margin: 0;
     position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+
 }
 
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
@@ -44,10 +40,12 @@ body {
 }
 
 .jumbotron {
-    background: url('https://source.unsplash.com/weekly?classy') no-repeat center center;
+    background: url('https://source.unsplash.com/weekly?fade') no-repeat center center;
     background-size: cover;
     
 }
+
+
 
 .description-box {
     display: flex;
