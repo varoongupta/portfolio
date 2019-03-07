@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Sriracha');
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon|Montserrat+Alternates|Open+Sans');
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
@@ -8,7 +10,7 @@ body {
 .navbar{
     margin-bottom: 0;
     border-radius: 0;
-    background-color: #595450;
+    background-color: #000000;
     color: #FFF;
     padding: 1% 0;
     font-size: 1.2em;
@@ -21,7 +23,9 @@ body {
     padding: 0 15px 5px;
     margin: 0;
     position: absolute;
-
+    overflow: hidden;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #595450;
 }
 
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
@@ -40,16 +44,31 @@ body {
 }
 
 .jumbotron {
-    background: url('https://source.unsplash.com/weekly?fade') no-repeat center center;
+    background: url('http://pollmappr.com/wp-content/uploads/2018/07/blue-background-designs-for-websites-free-repeat-pattern-with-a-blue-geometric-theme-web-design-template.jpg') no-repeat center center;
     background-size: cover;
-    
 }
 
+.jumbotron-2 {
+    background: url('GradientGoals.png') no-repeat center center;
+    background-size: cover;
+}
 
+.backdrop-1 {
+    background: url('https://cdn4.vectorstock.com/i/1000x1000/76/43/grey-modern-low-poly-background-vector-3817643.jpg');
+    background-size: cover;
+}
 
 .description-box {
     display: flex;
     align-items: center;
+}
+
+.fade-in {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255,255,255,0));
+}
+
+.fade-out {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255,255,255,1));
 }
 
 .vcenter {
