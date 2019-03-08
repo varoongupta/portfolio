@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Sriracha');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 @import url('https://fonts.googleapis.com/css?family=Coming+Soon|Montserrat+Alternates|Open+Sans');
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
     color: #d5d5d5;
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-style: italic;
 }
 
 .navbar{
