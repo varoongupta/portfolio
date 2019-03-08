@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 @import url('https://fonts.googleapis.com/css?family=Coming+Soon|Montserrat+Alternates|Open+Sans');
 
+body, html {
+    height: 100%;
+}
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
     color: #d5d5d5;
@@ -11,6 +15,27 @@ body {
 h2 {
     font-family: 'Fjalla One', sans-serif;
     font-style: italic;
+}
+
+.wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bg { 
+    
+
+
+  /* The image used */
+    background-image: url("GradientJumbotron.png");
+
+  /* Full height */
+    height: 100%; 
+
+  /* Center and scale the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar{
@@ -78,9 +103,11 @@ h2 {
 }
 
 .vcenter {
+
     display: inline-block;
     vertical-align: middle;
-    float: none;
+    flex: none;
+
 }
 
 .logo {
