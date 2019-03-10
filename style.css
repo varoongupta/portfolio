@@ -9,7 +9,7 @@ body, html {
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #d5d5d5;
+    color: #26334c;
 }
 
 h2 {
@@ -41,13 +41,13 @@ h2 {
     width: 100%;
     
   /* The image used */
-    background-image: url("GradientJumbotron.png");
+    background-image: url("GradientGoals1.png");
 
   /* Full height */
     height: 100%; 
 
   /* Center and scale the image */
-  background-position: center;
+  background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -55,19 +55,28 @@ h2 {
 .navbar{
     margin-bottom: 0;
     border-radius: 0;
-    background-color: #000000;
-    color: #FFF;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255,255,255,1));
+    background-color: rgba(255, 255, 255, 0);
+    color: #26334c;
     padding: 1% 0;
     font-size: 1.2em;
     border: 0;
     position: absolute;
     bottom: 0;
     width: 100%;
+    text-align: center;
+}
 
+
+
+.center {
+    position: relative;
+    left: 20%;
+    display: inline-block;
 }
 
 .head{
-    color: #FFF;
+    color: #26334c;
     padding: 1% 0;
     position: absolute;
     top: 0;
@@ -75,13 +84,11 @@ h2 {
     width: 100%;
 }
 .head h1 {
-    color: #FFF;
+    color: #26334c;
     text-align: center;
     font-family: 'Sriracha', cursive;
     font-size: 4.5em;
-    
 }
-
 .navbar-brand {
     float: left;
     min-height: 55px;
@@ -90,16 +97,16 @@ h2 {
     position: absolute;
     overflow: hidden;
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #595450;
+    color: #26334c;
 }
 
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
     color: #FFF;
-    background-color: #595450; 
+    background-color: #26334c; 
 }
 
 .navbar-inverse .navbar-nav li a {
-    color: #d5d5d5
+    color: #26334c
 }
 
 .headshot {
@@ -129,6 +136,10 @@ h2 {
     background-size: cover;
 }
 
+.about-me {
+    overflow: hidden;
+}
+ 
 .description-box {
     display: flex;
     align-items: center;
