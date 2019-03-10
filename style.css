@@ -17,15 +17,29 @@ h2 {
     font-style: italic;
 }
 
-.wrapper {
-    display: inline-block;
-    vertical-align: middle;
+.wrapper img {
+    margin: 0 auto;
 }
 
+.wrapper h1 {
+    text-align: center;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper {
+    vertical-align: middle;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+
 .bg { 
+
+    width: 100%;
     
-
-
   /* The image used */
     background-image: url("GradientJumbotron.png");
 
@@ -46,8 +60,28 @@ h2 {
     padding: 1% 0;
     font-size: 1.2em;
     border: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 
 }
+
+.head{
+    color: #FFF;
+    padding: 1% 0;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+}
+.head h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    font-size: 4.5em;
+    
+}
+
 .navbar-brand {
     float: left;
     min-height: 55px;
@@ -80,8 +114,14 @@ h2 {
 }
 
 .jumbotron-2 {
-    background: url('GradientGoals.png') no-repeat center center;
+    background: url('GradientGoals1.png') no-repeat center right;
     background-size: cover;
+    background-position: bottom right;
+    height: 100%;
+}
+
+.container-fluid {
+    height: 100%;
 }
 
 .backdrop-1 {
@@ -100,6 +140,9 @@ h2 {
 
 .fade-out {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255,255,255,1));
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
 
 .vcenter {
