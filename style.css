@@ -68,7 +68,6 @@ h2 {
 }
 
 
-
 .center {
     position: relative;
     left: 20%;
@@ -128,7 +127,7 @@ h2 {
 }
 
 .container-fluid {
-    height: 100%;
+    min-height: 100%;
 }
 
 .backdrop-1 {
@@ -138,6 +137,10 @@ h2 {
 
 .about-me {
     overflow: hidden;
+    background-color: #eff4fc;
+}
+.about-me p, .about-me h2, .about-me h4 {
+    color: #27272b;
 }
  
 .description-box {
