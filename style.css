@@ -137,10 +137,14 @@ h2 {
 
 .about-me {
     overflow: hidden;
-    background-color: #eff4fc;
+    /* background-color: #eff4fc; */
+    background-image: url("Photographer_Edit.jpg");
+    background-size: cover;
+    background-position-x: center;
+    height: 100%;
 }
 .about-me p, .about-me h2, .about-me h4 {
-    color: #27272b;
+    color: #dfdfdf;
 }
  
 .description-box {
@@ -150,6 +154,7 @@ h2 {
 
 .fade-in {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255,255,255,0));
+    background-position: top;
 }
 
 .fade-out {
@@ -160,11 +165,9 @@ h2 {
 }
 
 .vcenter {
-
     display: inline-block;
     vertical-align: middle;
     flex: none;
-
 }
 
 .logo {
