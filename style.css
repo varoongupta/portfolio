@@ -101,7 +101,7 @@ h2 {
 }
 
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
-    color: #FFF;
+    color: black;
     background-color: #26334c; 
 }
 
