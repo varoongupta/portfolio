@@ -83,7 +83,7 @@ h2 {
     width: 100%;
 }
 .head h1 {
-    color: #26334c;
+    color: #1d6091;
     text-align: center;
     font-family: 'Sriracha', cursive;
     font-size: 4.5em;
@@ -100,12 +100,12 @@ h2 {
 }
 
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
-    color: black;
+    color: #1d6091;
     background-color: #26334c; 
 }
 
 .navbar-inverse .navbar-nav li a {
-    color: #26334c
+    color: #26334c;
 }
 
 .headshot {
@@ -143,8 +143,11 @@ h2 {
     background-position-x: center;
     height: 100%; */
 }
-.about-me p, .about-me h2, .about-me h4 {
-    color: #27272b;
+.about-me p, .about-me h4 {
+    color: #26334c;
+}
+.about-me h2 {
+    color: #888551;
 }
  
 .description-box {
