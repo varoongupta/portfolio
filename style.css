@@ -120,7 +120,7 @@ h2 {
 }
 
 .jumbotron-2 {
-    background: url('GradientGoals1.png') no-repeat center right;
+    /* background: url('GradientGoals1.png') no-repeat center right; */
     background-size: cover;
     background-position: bottom right;
     height: 100%;
@@ -137,7 +137,7 @@ h2 {
 
 .about-me {
     overflow: hidden;
-    background-color: #eff4fc; 
+    background-color: white; 
     /*background-image: url("Photographer_Edit.jpg");
     background-size: cover;
     background-position-x: center;
@@ -162,7 +162,7 @@ h2 {
 
 .fade-out {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255,255,255,1));
-    width: 100%;
+
 }
 
 .vcenter {
@@ -180,6 +180,56 @@ h2 {
 .grow { 
     transition: all .1s ease-in-out;
 }
+
 .grow:hover { 
     transform: scale(3.5); 
+}
+
+.see-more {
+
+    background-size: 80rem;
+    background-position-y: center;
+    background-position-x: center;
+    transition: all .8s ease-in-out;
+    color: white;
+    
+}
+
+.eng {
+    background-image: url('Engineer\ \(1\).png')
+}
+
+.ath {
+    background-image: url('Athlete.png')
+}
+
+.sty {
+    background-image: url('HairStylist.png')
+}
+
+.see-more:hover {
+    background-image: none;
+}
+
+.see-more h4:hover, .see-more p:hover {
+    color: #26334c;
+}
+
+.see-more h4, .see-more p {
+    color: transparent;
+}
+
+.see-more-text {
+    position: absolute;
+    bottom: 3px;
+}
+
+.go-away {
+    width: 100%;
+    position: absolute;
+    size: cover;
+}
+
+.go-away:hover {
+    opacity: 0;
 }
