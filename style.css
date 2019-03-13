@@ -147,7 +147,8 @@ h2 {
     color: #26334c;
 }
 .about-me h2 {
-    color: #888551;
+    /* color: #888551; */
+    color: #26334c;
 }
  
 .description-box {
