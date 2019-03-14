@@ -137,7 +137,8 @@ h2 {
 }
 
 .about-me {
-    overflow: hidden;
+    overflow: scroll;
+    height: 100%;
     background-color: white; 
     /*background-image: url("Photographer_Edit.jpg");
     background-size: cover;
