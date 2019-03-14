@@ -10,6 +10,7 @@ body, html {
 body {
     font-family: 'Roboto Condensed', sans-serif;
     color: #26334c;
+    overflow: auto;
 }
 
 h2 {
@@ -137,14 +138,18 @@ h2 {
 }
 
 .about-me {
-    overflow: scroll;
+    overflow-y: scroll;
     height: 100%;
     background-color: white; 
     /*background-image: url("Photographer_Edit.jpg");
     background-size: cover;
     background-position-x: center;
     height: 100%; */
+    padding: 0px 30px;
 }
+
+
+
 .about-me p, .about-me h4 {
     color: #26334c;
 }
@@ -152,7 +157,36 @@ h2 {
     /* color: #888551; */
     color: #26334c;
 }
- 
+
+.scroll-wrap {
+    white-space: nowrap; 
+    max-height: 40rem; 
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    width: auto;
+    align-items: flex-start;
+}
+
+.cardpic {
+    flex-shrink: 0 auto;
+    height: 30rem;
+}
+
+.card {
+    padding: 10px 10%;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background: #dfdfdf;
+}
+
+.bio {
+    padding: 10px 10%;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background: #aa1c1c4b;
+}
+
 .description-box {
     display: flex;
     align-items: center;
