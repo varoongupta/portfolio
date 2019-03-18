@@ -178,6 +178,8 @@ h2 {
     margin: 10px 10px;
     border-radius: 10px;
     background: #dfdfdf;
+    max-width: 1500px;
+    margin: 20px auto;
 }
 
 .bio {
@@ -185,6 +187,8 @@ h2 {
     margin: 10px 10px;
     border-radius: 10px;
     background: #aa1c1c4b;
+    max-width: 1500px;
+    margin: 20px auto;
 }
 
 .description-box {
