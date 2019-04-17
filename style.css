@@ -177,7 +177,8 @@ h2 {
     padding: 10px 10%;
     margin: 10px 10px;
     border-radius: 10px;
-    background: #dfdfdf;
+    background: #ffffff;
+    box-shadow:5px 5px #dfdfdf ;
     max-width: 700px;
     margin: 20px auto;
 }
@@ -186,7 +187,7 @@ h2 {
     padding: 10px 10%;
     margin: 10px 10px;
     border-radius: 10px;
-    background: #5c942867;
+    box-shadow:5px 5px #5c942867;
     max-width: 800px;
     margin: 20px auto;
 }
