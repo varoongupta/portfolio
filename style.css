@@ -87,7 +87,7 @@ h2 {
 .head h1 {
     color: #1d6091;
     text-align: center;
-    font-family: 'Sriracha', cursive;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 4.5em;
 }
 .navbar-brand {
@@ -234,7 +234,8 @@ h2 {
     background-position-x: center;
     transition: all .8s ease-in-out;
     color: white;
-    
+    max-width: 650px;
+    padding: auto 10%;    
 }
 
 .eng {
