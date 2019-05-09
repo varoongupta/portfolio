@@ -87,7 +87,7 @@ h2 {
 .head h1 {
     color: #1d6091;
     text-align: center;
-    font-family: 'Sriracha', cursive;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 4.5em;
 }
 .navbar-brand {
@@ -145,7 +145,7 @@ h2 {
     background-size: cover;
     background-position-x: center;
     height: 100%; */
-    padding: 0px 30px;
+    padding: 0px 35px;
 }
 
 
@@ -177,8 +177,9 @@ h2 {
     padding: 10px 10%;
     margin: 10px 10px;
     border-radius: 10px;
-    background: #dfdfdf;
-    max-width: 1500px;
+    background: #ffffff;
+    box-shadow:5px 5px #dfdfdf ;
+    max-width: 700px;
     margin: 20px auto;
 }
 
@@ -186,8 +187,8 @@ h2 {
     padding: 10px 10%;
     margin: 10px 10px;
     border-radius: 10px;
-    background: #ccba1c96;
-    max-width: 1500px;
+    box-shadow:5px 5px #5c942867;
+    max-width: 800px;
     margin: 20px auto;
 }
 
@@ -233,7 +234,8 @@ h2 {
     background-position-x: center;
     transition: all .8s ease-in-out;
     color: white;
-    
+    max-width: 650px;
+    padding: auto 10%;    
 }
 
 .eng {
